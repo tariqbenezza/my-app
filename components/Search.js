@@ -59,12 +59,12 @@ const navigationOptions = {
 }
 
 export default StackNavigator({
-    Result:{
-        screen:List,
-        navigationOptions
-    },
     Search:{
         screen:Search,
+        navigationOptions
+    },
+    Result:{
+        screen:List,
         navigationOptions
     }
 })
